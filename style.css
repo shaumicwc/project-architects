@@ -27,7 +27,6 @@
     font-weight: 700;
     font-size: 45px;
     margin-top: 50px;
-    margin-right: ;
 }
 
 ul {
@@ -61,7 +60,7 @@ li {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .button-primary {
@@ -76,6 +75,199 @@ li {
     margin-bottom: 50px;
 }
 
+.button-primary:hover {
+    background-color: #131313;
+    transition-duration: 0.8s;
+
+
+}
+
 .banner-image img {
     width: 100%;
+}
+
+/* -------------------------------------------main section------------------------------- */
+
+/* ---------------------features-images style---------------------------- */
+.features {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.features-images img {
+    width: 100%;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    padding: 60px;
+    margin-left: 175px;
+
+}
+
+.feature-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-left: 30px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* 
+--------------------------------------------feature style end------------------------------------ */
+
+/* 
+-----------------------------------------------------facts section style---------------------------------- */
+
+.fact-info {
+
+    padding-left: 130px;
+    padding-bottom: 100px;
+
+
+
+}
+
+.fact-titles {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.facts-containres {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px 30px; */
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1 px solid red;
+    padding: 20px;
+
+
+}
+
+.facts-cotainer1:hover {
+    padding: 30px;
+    background-color: #c7b283;
+    font-weight: 900;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate(360deg);
+    transition: 0.9s;
+}
+.facts-cotainer2:hover {
+    padding: 30px;
+    background-color: #c7b283;
+    font-weight: 900;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate(360deg);
+    transition: 0.9s;
+}
+.facts-cotainer3:hover {
+    padding: 30px;
+    background-color: #c7b283;
+    font-weight: 900;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate(360deg);
+    transition: 0.9s;
+}
+.facts-cotainer4:hover {
+    padding: 30px;
+    background-color: #c7b283;
+    font-weight: 900;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate(360deg);
+    transition: 0.9s;
+}
+
+/* --------------------------------------facts style end---------------------------------- --> */
+
+/* ---------------------------Sponsors style starts--------------------------- */
+
+
+
+
+
+
+
+/* ------------------------
+---------------media query
+--------------------------- */
+
+@media (max-width: 576px) {
+
+    /* ------------nav------------- */
+    .nav-bar {
+        display: block;
+    }
+
+    ul {
+        display: block;
+    }
+
+    /* .features-images {
+        display: block;
+    }
+    .feature-info{
+        display: block;
+    } */
+    /* ---------------------banner---------------- */
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner--sub-title {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ---------------------feature---------------------- */
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-images {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
