@@ -105,7 +105,7 @@ li {
     grid-row-gap: 24px;
 }
 
-/* features of interest */
+/* ----------------------------------architects style start------------------------------- */
 
 .feature-container {
     display: flex;
@@ -144,10 +144,6 @@ li {
     border-radius: 8px;
 }
 
-/* .architect-experience {
-    width: 800px;
-    height: 1059px;
-} */
 
 .button-experience {
     background-color: #FF900E;
@@ -174,52 +170,10 @@ li {
 }
 
 /* 
---------------------------------------------feature style end------------------------------------ */
+--------------------------------------------architects style end------------------------------------ */
 
-/* ------------------------------------architects style----------------- */
-/*
- .feature-container {
-    display: flex;
-    margin: 0 65px 0px;
-    align-items: center;
-    gap: 54px;
-}
-
-.feature-title {
-    color: #131313;
-    border-left: 5px solid #FF900E;
-    height: 106px;
-    font-weight: 700;
-    font-size: 45px;
-}
-
-.feature-sub-title {
-    color: #131313;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.feature-details {
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.fun-features-one,
-.fun-features-two,
-.fun-features-three,
-.fun-features-four {
-    gap: 20px;
-    padding: 30px 42px 30px 30px;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-}
-
-/* .architect-experience {
-    width: 800px;
-    height: 1059px;
-} */
-
+/* ------------------------------------ style----------------- */
+/* 
 .button-experience {
     background-color: #FF900E;
     padding: 46px 42px 45px 42px;
@@ -242,7 +196,7 @@ li {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 25px;
-}
+} */
 
 /* -----------------------------------------------------facts section style----------------------------------  */
 
@@ -299,7 +253,7 @@ li {
 
 /* --------------------------------------facts style end---------------------------------- --> */
 /* -----------------------------------our top blogs---------------------- */
-.blog-container {}
+
 
 
 .blogs {
@@ -374,18 +328,18 @@ li {
 
 /* ------------------------------------------------footer styles----------------------------- */
 footer {
-    background: #FFF4E7;
+    background-color: #FFF4E7;
     border-radius: 8px;
+    margin: 130px 240px 230px;
     padding: 20px 100px;
-    margin: 0 330px;
 }
 
 .footer-info {
+    color: #424242;
     font-weight: 400;
     font-size: 20px;
-
-    color: #424242;
 }
+
 
 
 
@@ -399,7 +353,7 @@ footer {
 
     /* ------------nav------------- */
     .nav-bar {
-        /* display: block; */
+     
         flex-direction: column;
     }
 
@@ -407,12 +361,7 @@ footer {
         display: block;
     }
 
-    /* .features-images {
-        display: block;
-    }
-    .feature-info{
-        display: block;
-    } */
+ 
     /* ---------------------banner---------------- */
     .banner {
 
