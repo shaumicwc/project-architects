@@ -105,6 +105,24 @@ li {
     grid-row-gap: 24px;
 }
 
+.quick-feature-title {
+    margin-bottom: 10px;
+}
+
+.title-color {
+    color: #727272;
+}
+
+.f-black {
+    color: #000000;
+    font-weight: 900;
+}
+
+.f-color {
+    color: #FF900E;
+    font-weight: 700;
+}
+
 /* ----------------------------------architects style start------------------------------- */
 
 .feature-container {
@@ -363,19 +381,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .title-color {
-        color: #727272;
-    }
 
-    .f-black {
-        color: #131313;
-        font-weight: 700;
-    }
-
-    .f-color {
-        background: #FF900E;
-        font-weight: 700;
-    }
 
     /* architect--------- */
     .feature-container {
