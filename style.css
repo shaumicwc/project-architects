@@ -323,15 +323,11 @@ li {
 footer {
     background-color: #FFF4E7;
     border-radius: 8px;
-    margin: 130px 240px 230px;
-    padding: 20px 100px;
+    padding: 20px 250px;
+    margin: 130px 240px 30px;
 }
 
-.footer-info {
-    color: #424242;
-    font-weight: 400;
-    font-size: 20px;
-}
+
 
 
 
@@ -488,8 +484,7 @@ footer {
     /* footer  */
 
     footer {
-        text-align: center;
-        margin-left: 100px;
-        padding: 20px;
+        margin: 0;
+        padding: 15px 5px;
     }
 }
