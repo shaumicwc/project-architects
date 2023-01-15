@@ -172,31 +172,6 @@ li {
 /* 
 --------------------------------------------architects style end------------------------------------ */
 
-/* ------------------------------------ style----------------- */
-/* 
-.button-experience {
-    background-color: #FF900E;
-    padding: 46px 42px 45px 42px;
-    width: 342px;
-    height: 200px;
-    border: none;
-    border-radius: 8px;
-    position: relative;
-    right: 100px;
-    top: -125px;
-}
-
-.button-text-top {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 65px;
-}
-
-.button-text-bottom {
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 25px;
-} */
 
 /* -----------------------------------------------------facts section style----------------------------------  */
 
@@ -507,7 +482,8 @@ footer {
     /* footer  */
 
     footer {
-        margin: 0;
+        text-align: center;
+        margin-left: 100px;
         padding: 20px;
     }
 }
