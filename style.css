@@ -353,7 +353,7 @@ footer {
 
     /* ------------nav------------- */
     .nav-bar {
-     
+
         flex-direction: column;
     }
 
@@ -361,7 +361,7 @@ footer {
         display: block;
     }
 
- 
+
     /* ---------------------banner---------------- */
     .banner {
 
@@ -386,6 +386,20 @@ footer {
     .teams {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .title-color {
+        color: #727272;
+    }
+
+    .f-black {
+        color: #131313;
+        font-weight: 700;
+    }
+
+    .f-color {
+        background: #FF900E;
+        font-weight: 700;
     }
 
     /* architect--------- */
